@@ -15,4 +15,16 @@
     .hide{
         display: block;
     }
+    .explore{
+        width: 100%;
+    }
+    .explore-container{
+        padding: 10px;
+        /* background-position: center; */
+        background-size: cover;
+        background-position: center;
+    }
+    .explore-section-form{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

@@ -6,27 +6,26 @@
   font-family: "Mulish", sans-serif;
 }
 
+/* header styles */
 header {
   width: 80%;
   margin: 0 auto;
 }
 nav {
-  margin-top: 42px;
+  margin-top: 52px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 nav .header-title {
   display: flex;
-  gap: 13px;
+  gap: 16px;
   align-items: center;
 }
-/* .header-title img{
-    width: 38px;
-} */
+
 .header-title {
   color: #131318;
-  font-size: 29px;
+  font-size: 36px;
   font-weight: 800;
 }
 .header-title span {
@@ -45,9 +44,80 @@ nav ul {
 nav ul a {
   text-decoration: none;
   color: #424247;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
 }
 .hide {
   display: none;
+}
+
+/* explore section styles */
+.explore {
+  width: 80%;
+  margin: 0 auto;
+}
+.explore-container {
+  margin-top: 50px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  border-radius: 16px;
+  background-size: auto, 100%;
+  background-repeat: no-repeat;
+}
+.explore-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.explore-container {
+  padding: 106px 185px;
+}
+.explore-section-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.explore-section-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.explore-section-form {
+  width: 80%;
+  display: grid;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  grid-template-columns: repeat(4, 1fr);
+}
+.explore-section-form button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 15px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 400;
+}
+.sp-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  background: #ff5400;
 }
