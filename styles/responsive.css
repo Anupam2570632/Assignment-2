@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+    body{
+        width: 90%;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+    }
+    nav{
+        margin-top: 16px;
+    }
+    nav ul{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+}
