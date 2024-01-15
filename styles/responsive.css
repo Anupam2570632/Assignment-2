@@ -1,7 +1,8 @@
 @media screen and (max-width: 600px) {
     header, 
     .explore,
-    .newsletter
+    .newsletter,
+    .popular
     {
         width: 90%;
         margin: 0 auto;
@@ -32,11 +33,13 @@
     .footer-container hr{
         width: 70%;
     }
+    .popular-container,
     .newsletter-container{
         flex-direction: column;
         margin-top: 24px;
+        gap: 16px;
     }
-    .newsletter-img img{
+    .main-img img{
         width: 100%;
         height: 300px;
     }
@@ -46,13 +49,22 @@
     .newsletter-form button{
         padding: 14px;
     }
+    .newsletter-form{
+        width: auto;
+    }
+    .newsletter-img{
+        width: 100%;
+    }
     .off-box{
         height: 80px;
         width: 250px;
         right: 5px;
         bottom: 50px;
     }
-    .newsletter-container{
-        gap: 16px;
+    .popular-section-img img{
+        width: 100%;
+    }
+    .popular-section-info{
+        padding: 5px;
     }
 }

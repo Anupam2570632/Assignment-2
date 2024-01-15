@@ -25,7 +25,7 @@ nav {
 
 .header-title {
   color: #131318;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 800;
 }
 .header-title span {
@@ -65,7 +65,9 @@ nav ul a {
     ),
     url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   border-radius: 16px;
-  background-size: auto, 100%;
+  /* background-size: auto, 100%; */
+  object-fit: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .explore-container {
@@ -80,7 +82,7 @@ nav ul a {
 }
 .explore-section-title {
   color: #fff;
-  font-size: 64px;
+  font-size: 44px;
   font-weight: 800;
 }
 .explore-section-description {
@@ -121,6 +123,87 @@ nav ul a {
   font-weight: 700;
   background: #ff5400;
 }
+/* popular section styles */
+.popular {
+  width: 80%;
+  margin: 0 auto;
+}
+.popular-container {
+  display: flex;
+  gap: 53px;
+  margin-top: 100px;
+}
+.popular-section-info h1 {
+  color: #131318;
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+.popular-section-info p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  line-height: 26px;
+}
+.popular-section-info button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+}
+.destination{
+  width: 80%;
+  margin: 0 auto;
+}
+.place1{
+  /* background-image: url('../Images/Rectangle\ 11.png'); */
+  grid-area: place1;
+}
+.place2{
+  grid-area: place2;
+}
+.place3{
+  grid-area: place3;
+}
+.place4{
+  grid-area: place4;
+}
+.place5{
+  grid-area: place5;
+}
+.place6{
+  grid-area: place6;
+}
+.place7{
+  grid-area: place7;
+}
+.destination-place{
+  display: grid;
+  grid-template-areas: 
+  "place1 place1 place1 place1 place2 place2 place2 place2"
+  "place3 place3  place4 place4 place4 place4 place4 place5"
+  "place6 place6 place6 place7 place7 place7 place7 place7"
+  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* newsletter seciton style */
 .newsletter {
@@ -132,8 +215,10 @@ nav ul a {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  gap: 3%;
 }
 .newsletter-form {
+  width: 32%;
   display: flex;
   flex-direction: column;
   padding: 40px;
@@ -182,7 +267,8 @@ nav ul a {
   border: none;
   margin-top: 8px;
 }
-.newsletter-img{
+.newsletter-img {
+  width: 65%;
   position: relative;
 }
 .off-box {
@@ -197,8 +283,8 @@ nav ul a {
   border-radius: 16px;
   background: #ff5400;
   position: absolute;
-  right: 15px;
-  bottom:50px;
+  right: 2%;
+  bottom: 12%;
 }
 .off-box h4 {
   color: #fff;
@@ -210,7 +296,9 @@ nav ul a {
   font-size: 24px;
   font-weight: 400;
 }
-
+.newsletter-img img{
+  width: 100%;
+}
 /* footer section styles */
 .footer-container {
   display: flex;
