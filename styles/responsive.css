@@ -1,10 +1,10 @@
 @media screen and (max-width: 600px) {
-    body{
+    header, 
+    .explore,
+    .newsletter
+    {
         width: 90%;
         margin: 0 auto;
-    }
-    header{
-        width: 100%;
     }
     nav{
         margin-top: 16px;
@@ -15,22 +15,44 @@
     .hide{
         display: block;
     }
-    .explore{
-        width: 100%;
-    }
+    
     .explore-container{
         padding: 10px;
-        /* background-position: center; */
         background-size: cover;
         background-position: center;
+        margin-top: 24px;
     }
     .explore-section-form{
         grid-template-columns: repeat(1, 1fr);
     }
     .footer-container{
         padding: 10px;
-    }
+        margin-top: 24px;
+     }
     .footer-container hr{
         width: 70%;
+    }
+    .newsletter-container{
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .newsletter-img img{
+        width: 100%;
+        height: 300px;
+    }
+    .newsletter-form input{
+        padding: 20px;
+    }
+    .newsletter-form button{
+        padding: 14px;
+    }
+    .off-box{
+        height: 80px;
+        width: 250px;
+        right: 5px;
+        bottom: 50px;
+    }
+    .newsletter-container{
+        gap: 16px;
     }
 }
