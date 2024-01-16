@@ -76,6 +76,12 @@
     .popular-section-info{
         padding: 5px;
     }
+    .choose-us-container h1,
+    .destination-heading,
+    .popular-section-info h1,
+    .about-section-container h1{
+        font-size: 25px;
+    }
     .choose-us-container,
     .about-section-container,
     .destination-container{
