@@ -102,7 +102,7 @@ nav ul a {
   background: rgba(255, 255, 255, 0.3);
   grid-template-columns: repeat(4, 1fr);
 }
-.explore-section-form button {
+.explore-section-form button, .explore-section-form input {
   display: flex;
   align-items: center;
   justify-content: space-between;
