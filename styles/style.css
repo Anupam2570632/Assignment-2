@@ -155,55 +155,82 @@ nav ul a {
   border-radius: 8px;
   background: #ff5400;
 }
-.destination{
+.destination {
   width: 80%;
   margin: 0 auto;
 }
-.place1{
-  /* background-image: url('../Images/Rectangle\ 11.png'); */
+.destination-container {
+  margin-top: 100px;
+}
+
+.place1 {
   grid-area: place1;
+  position: relative;
 }
-.place2{
+.destination-place img{
+  width: 100%;
+  height: 100%;
+}
+.place2 {
   grid-area: place2;
+  position: relative;
 }
-.place3{
+.place3 {
   grid-area: place3;
+  position: relative;
 }
-.place4{
+.place4 {
   grid-area: place4;
+  position: relative;
 }
-.place5{
+.place5 {
   grid-area: place5;
+  position: relative;
 }
-.place6{
+.place6 {
   grid-area: place6;
+  position: relative;
 }
-.place7{
+.place7 {
   grid-area: place7;
+  position: relative;
 }
-.destination-place{
+.destination-place {
   display: grid;
-  grid-template-areas: 
-  "place1 place1 place1 place1 place2 place2 place2 place2"
-  "place3 place3  place4 place4 place4 place4 place4 place5"
-  "place6 place6 place6 place7 place7 place7 place7 place7"
-  ;
+  grid-template-areas:
+    "place1 place1 place1 place1 place2 place2 place2 place2"
+    "place3 place3  place4 place4 place4 place4 place4 place5"
+    "place6 place6 place6 place7 place7 place7 place7 place7";
+  gap: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.destination-place img {
+  width: 100%;
+  border-radius: 16px;
+}
+.destination-place h1 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.destination-heading {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
 
 /* newsletter seciton style */
 .newsletter {
@@ -241,16 +268,14 @@ nav ul a {
 .newsletter-form hr {
   margin-bottom: 24px;
 }
+
 .newsletter-form ::placeholder {
   color: rgba(19, 19, 24, 0.3);
-  font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .newsletter-form input {
-  padding: 16px 252px 16px 20px;
+  padding: 16px 150px 16px 20px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   border: none;
@@ -296,7 +321,7 @@ nav ul a {
   font-size: 24px;
   font-weight: 400;
 }
-.newsletter-img img{
+.newsletter-img img {
   width: 100%;
 }
 /* footer section styles */

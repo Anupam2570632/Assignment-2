@@ -2,7 +2,8 @@
     header, 
     .explore,
     .newsletter,
-    .popular
+    .popular,
+    .destination
     {
         width: 90%;
         margin: 0 auto;
@@ -39,9 +40,8 @@
         margin-top: 24px;
         gap: 16px;
     }
-    .main-img img{
+    .main-img {
         width: 100%;
-        height: 300px;
     }
     .newsletter-form input{
         padding: 20px;
@@ -55,6 +55,13 @@
     .newsletter-img{
         width: 100%;
     }
+    .header-title{
+        font-size: 20px;
+    }
+    .explore-section-title{
+        font-size: 25px;
+        margin-top: 15px;
+    }
     .off-box{
         height: 80px;
         width: 250px;
@@ -66,5 +73,27 @@
     }
     .popular-section-info{
         padding: 5px;
+    }
+    .destination-container{
+        margin-top: 24px;
+    }
+    .destination-place{
+        grid-template-areas: 
+        "place1"
+        "place2"
+        "place3"
+        "place4"
+        "place5"
+        "place6"
+        "place7"
+        ;
+        gap: 16px;
+    }
+    
+    .destination-place img{
+        width: 100%;
+    }
+    .destination-place h1{
+        font-size: 20px;
     }
 }
