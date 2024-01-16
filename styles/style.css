@@ -167,7 +167,7 @@ nav ul a {
   grid-area: place1;
   position: relative;
 }
-.destination-place img{
+.destination-place img {
   width: 100%;
   height: 100%;
 }
@@ -231,12 +231,13 @@ nav ul a {
   margin-top: 16px;
   margin-bottom: 48px;
 }
+/* choose us section styles */
 
-.choose-us{
+.choose-us {
   width: 80%;
   margin: 0 auto;
 }
-.choose-us-container{
+.choose-us-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -244,18 +245,63 @@ nav ul a {
   justify-content: center;
   margin-top: 100px;
 }
-.first-row{
+.choose-us-container h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-us-container p {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+}
+.first-row {
   display: flex;
   gap: 24px;
 }
-
-
-
-
-
-
-
-
+.card {
+  padding: 32px 55px 32px 32px;
+}
+.card1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+.card3 {
+  width: 42%;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.first-row img,
+.second-row img {
+  height: 64px;
+  width: 64px;
+}
+.card h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.card p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 /* newsletter seciton style */
 .newsletter {
   width: 80%;
