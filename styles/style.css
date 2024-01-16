@@ -302,6 +302,53 @@ nav ul a {
   font-weight: 400;
   line-height: 26px;
 }
+.about{
+  width: 80%;
+  margin: 0 auto;
+}
+.about-section-container{
+  margin-top: 100px;
+  text-align: center;
+  background-color: beige;
+  border-radius: 16px;
+}
+.about-us{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px;
+}
+.box img{
+  width: 70px;
+  border-radius: 50%;
+  /* height: 60px; */
+}
+.about-section-container>h1{
+  font-size: 35px;
+  padding-top: 50px;
+  margin-bottom: 16px;
+}
+.about-section-container>p{
+  font-size: 16px;
+  color: #5a5a5d;
+  margin-bottom: 30px;
+}
+.box{
+  border: 2px solid tan;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: rgba(0, 255, 255, 0.363);
+}
+.about-us-btn{
+  padding: 16px 45px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-bottom: 35px;
+  background-color: #ff5400;
+}
 /* newsletter seciton style */
 .newsletter {
   width: 80%;
