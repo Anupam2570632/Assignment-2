@@ -232,6 +232,30 @@ nav ul a {
   margin-bottom: 48px;
 }
 
+.choose-us{
+  width: 80%;
+  margin: 0 auto;
+}
+.choose-us-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.first-row{
+  display: flex;
+  gap: 24px;
+}
+
+
+
+
+
+
+
+
 /* newsletter seciton style */
 .newsletter {
   width: 80%;
