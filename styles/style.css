@@ -482,3 +482,9 @@ nav ul a {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* some hover */
+.box:hover {
+  scale: calc(1.1);
+  transition-duration: 500ms;
+}
