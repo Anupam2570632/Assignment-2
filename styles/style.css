@@ -102,7 +102,8 @@ nav ul a {
   background: rgba(255, 255, 255, 0.3);
   grid-template-columns: repeat(4, 1fr);
 }
-.explore-section-form button, .explore-section-form input {
+.explore-section-form button,
+.explore-section-form input {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -255,7 +256,7 @@ nav ul a {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
 }
 .first-row {
   display: flex;
@@ -302,45 +303,53 @@ nav ul a {
   font-weight: 400;
   line-height: 26px;
 }
-.about{
+.about {
   width: 80%;
   margin: 0 auto;
 }
-.about-section-container{
+.about-section-container {
   margin-top: 100px;
   text-align: center;
   background-color: beige;
   border-radius: 16px;
 }
-
-.about-us{
+.rate i {
+  color: #ddcc14;
+}
+.rate {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #5a5a5d;
+}
+.about-us {
   display: flex;
   gap: 25px;
   justify-content: center;
   padding: 30px;
 }
-.box img{
+.box img {
   width: 70px;
   border-radius: 50%;
   /* height: 60px; */
 }
-.about-section-container>h1{
+.about-section-container > h1 {
   font-size: 35px;
   padding-top: 50px;
   margin-bottom: 16px;
 }
-.about-section-container>p{
+.about-section-container > p {
   font-size: 16px;
   color: #5a5a5d;
   margin-bottom: 30px;
 }
-.box{
+.box {
   border: 2px solid tan;
   border-radius: 16px;
   padding: 16px;
   background-color: rgba(0, 255, 255, 0.363);
 }
-.about-us-btn{
+.about-us-btn {
   padding: 16px 45px;
   border: none;
   color: #fff;
